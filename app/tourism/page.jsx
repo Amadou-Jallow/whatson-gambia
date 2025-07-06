@@ -10,7 +10,7 @@ export default function TourismPage() {
         <Pagination
           items={tourismItems}
           itemsPerPage={6}
-          basePath="/lifestyle"
+          basePath="/tourism"
           title="Culture. Fashion. Everyday Vibes."
         />
       </section>

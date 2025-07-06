@@ -10,7 +10,7 @@ export default function NewsPage() {
         <Pagination
           items={newsItems}
           itemsPerPage={6}
-          basePath="/lifestyle"
+          basePath="/news"
           title="Culture. Fashion. Everyday Vibes."
         />
       </section>

@@ -10,7 +10,7 @@ export default function ExclusivePage() {
         <Pagination
           items={exclusiveItems}
           itemsPerPage={6}
-          basePath="/lifestyle"
+          basePath="/exclusive"
           title="Culture. Fashion. Everyday Vibes."
         />
       </section>
