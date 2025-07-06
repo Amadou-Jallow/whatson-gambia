@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import Layout from "../components/Layout";
 import "../styles/globals.css";
 
@@ -39,7 +40,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Layout>{children}</Layout>
+        <Layout>
+          {children}
+          <Analytics />
+        </Layout>
       </body>
     </html>
   );
