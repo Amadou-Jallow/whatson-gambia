@@ -7,32 +7,30 @@ export const metadata = {
   description:
     "Discover the latest news, culture, tourism and lifestyle stories from The Gambia.",
   openGraph: {
-    title: "Whatson Gambia",
-    description: "Your go-to source for Gambian culture, news and lifestyle.",
-    url: "https://whatson-gambia.com",
+    title: "Whatson Gambia - Culture, News & Lifestyle",
+    description:
+      "Discover the latest news, culture, tourism and lifestyle stories from The Gambia.",
+    url: "https://whatson-gambia.vercel.app",
     siteName: "Whatson Gambia",
     images: [
       {
-        url: "https://source.unsplash.com/featured/?gambia",
-        width: 800,
-        height: 600,
+        url: "https://whatson-gambia.vercel.app/og-image.png", // Make sure this image exists
+        width: 1200,
+        height: 630,
         alt: "Whatson Gambia",
       },
     ],
-    locale: "en_GB",
     type: "website",
+    locale: "en_GB",
   },
   twitter: {
     card: "summary_large_image",
     title: "Whatson Gambia",
-    description: "Your go-to source for Gambian culture, news and lifestyle.",
-    images: ["https://source.unsplash.com/featured/?gambia"],
+    description: "Discover the latest updates from The Gambia.",
+    images: ["https://whatson-gambia.vercel.app/og-image.png"],
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.png", type: "image/png" }, // ✅ this line
-    ],
+    icon: "/favicon.ico",
   },
 };
 
